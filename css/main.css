@@ -1,0 +1,46 @@
+body {
+	background-color: #f2f2f2;
+}
+
+li {
+	display: inline-block;
+}
+
+img {
+	height: 600px;
+	width: auto;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+	opacity: 0;
+	transform: translateX(10px);
+
+}
+
+.slide-fade-enter-active, .slide-fade-leave-active {
+	transition:  0.5s ease;
+}
+
+header {
+	background-color: #e6e6e6;
+}
+
+h1 {
+	text-align: center;
+}
+
+#app {
+	background-color: #ffffff;
+}
+
+h2 {
+	text-align: center;
+}
+
+#navbar {
+	text-align: center;
+}
+
+footer {
+	background-color: #e6e6e6;
+	text-align: center;
+}
